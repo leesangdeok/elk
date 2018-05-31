@@ -30,7 +30,7 @@ output.logstash:
   hosts: ["127.0.0.1:5044"]
 ```
 
-* filebeat start : 
+* run filebeat : 
 ```bash
 service filebeat start
 ```
@@ -90,7 +90,7 @@ output {
 
 ```
 
-* logstash start : 
+* run logstash : 
 ```bash
 /usr/share/logstash/bin/logstash --path.settings /etc/logstash/ -f /etc/logstash/conf.d/logstash-simple.conf
 ```
