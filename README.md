@@ -97,4 +97,33 @@ output {
 
 ## elasticsearch-6.2.3
 
+쉽게 검색엔진을 경험하자!!
+
+* Download 
+```bash
+curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.2.3.tar.gz
+tar -xvf elasticsearch-6.2.3.tar.gz
+```
+
+* run elasticsearch
+```bash
+cd elasticsearch-6.2.3/bin
+./elasticsearch
+```
+
 ## kibana-6.2.3
+
+kibana와 데이터 시각화하기
+
+* kibana 설치하기
+```bash
+wget https://artifacts.elastic.co/downloads/kibana/kibana-6.2.3-linux-x86_64.tar.gz
+shasum -a 512 kibana-6.2.3-linux-x86_64.tar.gz 
+tar -xzf kibana-6.2.3-linux-x86_64.tar.gz
+cd kibana-6.2.3-linux-x86_64/ 
+```
+
+* run kibana
+```bash
+./bin/kibana
+```
